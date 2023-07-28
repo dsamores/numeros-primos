@@ -1,8 +1,8 @@
 def generar_primos(num_primos):
     if num_primos == 0:
-        return []
+        return [0]
     primos = []
-    num = 2
+    num = 3
     while len(primos) < num_primos:
         es_primo = True
         for primo in primos:
@@ -13,3 +13,6 @@ def generar_primos(num_primos):
             primos.append(num)
         num += 1
     return primos
+
+def multiplicacion_de_primos(num_primos):
+    pass
