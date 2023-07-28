@@ -13,3 +13,6 @@ def generar_primos(num_primos):
             primos.append(num)
         num += 1
     return primos
+
+def multiplicacion_de_primos(num_primos):
+    pass
